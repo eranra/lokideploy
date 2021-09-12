@@ -112,6 +112,7 @@ loki:
         request_timeout: 2m
       aws:
         s3: ${s3_endpoint}
+        region: us-east-1
         s3forcepathstyle: true
         http_config:
           insecure_skip_verify: true
